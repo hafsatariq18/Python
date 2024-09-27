@@ -20,4 +20,4 @@ if __name__ == '__main__':
     difference = (a-b)
     print(difference)
     product = (a*b)
-    print(product)
+    print(product).
