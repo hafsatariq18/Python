@@ -10,7 +10,4 @@ array = numpy.array([list(map(int, input().split( )))for i in range(M)])
 sum = (numpy.sum(array, axis = 0))
 # print(sum)
 
-product = 1
-for i in sum:
-  product *= i
-print(product)
+print(numpy.product(sum))
